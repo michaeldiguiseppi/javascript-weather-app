@@ -1,10 +1,11 @@
-body {
-    background: url(http://www.weather1.com/assets/images/wallpapers/fly00712.jpg);
+html {
+    background-image: url('http://farm2.staticflickr.com/1463/24158156329_7ecaaf16a7_h.jpg');
     background-repeat: no-repeat;
 }
 
+
 #foreground {
-    background-color: #E6E6E6;
+    background-color: rgba(230, 230, 230, 0.6);
     margin: 0 auto;
     height: 550px;
     width: 90%;
@@ -31,6 +32,7 @@ p {
 
 form {
     margin-left: 10%;
+    opacity: 1;
 }
 
 input {
